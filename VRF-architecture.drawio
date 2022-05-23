@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T06:03:48.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="XO7PEs1LvrZY7LpWbhmd" version="18.1.1" type="github">
-  <diagram name="Page-1" id="197159a0-c6a4-9194-75a8-e4174976684c">
+<mxfile host="app.diagrams.net" modified="2022-05-23T06:14:18.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="u7dSz2cUGJ4AS8QOZsG9" version="18.1.1" type="github" pages="2">
+  <diagram name="VRF核心组件概览" id="197159a0-c6a4-9194-75a8-e4174976684c">
     <mxGraphModel dx="1662" dy="825" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
@@ -187,6 +187,52 @@
         </mxCell>
         <mxCell id="eN9nRApgs2fdK_-SKtKc-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="eN9nRApgs2fdK_-SKtKc-86" target="eN9nRApgs2fdK_-SKtKc-49">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TsslcDCiKWhLjADSjuSX" name="前端调用流程">
+    <mxGraphModel dx="1662" dy="825" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n_BV-dGGI0l1LHUvPqV1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hnHPIMs--N5sCZIMOS8V-1" target="IGESRjbjjZrmvNC7Vhr8-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129" y="99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IGESRjbjjZrmvNC7Vhr8-5" value="1、发起【Subscription/Comsumer】&lt;br&gt;增删操作" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="n_BV-dGGI0l1LHUvPqV1-1">
+          <mxGeometry x="-0.2851" y="-1" relative="1" as="geometry">
+            <mxPoint x="23" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hnHPIMs--N5sCZIMOS8V-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="23" y="123" width="24" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="IGESRjbjjZrmvNC7Vhr8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="I2pJJLbp6TD3xAPZ1h9Y-1" target="IGESRjbjjZrmvNC7Vhr8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGESRjbjjZrmvNC7Vhr8-4" value="2、【rpc链接、chainId、合约地址、abi、bin】t" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="IGESRjbjjZrmvNC7Vhr8-3">
+          <mxGeometry x="0.2185" y="4" relative="1" as="geometry">
+            <mxPoint x="22" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I2pJJLbp6TD3xAPZ1h9Y-1" value="&lt;span style=&quot;text-align: left;&quot;&gt;链&amp;amp;合约调用信息&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="593" y="52" width="137" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="IGESRjbjjZrmvNC7Vhr8-1" value="以太系链" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="595" y="224" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IGESRjbjjZrmvNC7Vhr8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=12;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IGESRjbjjZrmvNC7Vhr8-2" target="IGESRjbjjZrmvNC7Vhr8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGESRjbjjZrmvNC7Vhr8-7" value="3、构造并签名交易" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="IGESRjbjjZrmvNC7Vhr8-6">
+          <mxGeometry x="-0.1741" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IGESRjbjjZrmvNC7Vhr8-2" value="前端逻辑" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="267" y="95" width="95" height="92" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
