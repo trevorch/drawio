@@ -1,29 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2022-05-23T10:17:03.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="ax2QweHQoSg1TU0yIz4X" version="18.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-24T00:01:53.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="M61hFuKWW8du-7yboqht" version="18.1.1" type="github" pages="6">
   <diagram name="VRF核心组件概览" id="197159a0-c6a4-9194-75a8-e4174976684c">
-    <mxGraphModel dx="1422" dy="825" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1342" dy="645" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
         <mxCell id="eN9nRApgs2fdK_-SKtKc-75" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="816" y="454" width="250" height="167" as="geometry" />
+          <mxGeometry x="780" y="454" width="286" height="167" as="geometry" />
         </mxCell>
         <mxCell id="eN9nRApgs2fdK_-SKtKc-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eN9nRApgs2fdK_-SKtKc-75">
-          <mxGeometry width="250" height="167" as="geometry" />
+          <mxGeometry width="286" height="167" as="geometry" />
         </mxCell>
         <mxCell id="eN9nRApgs2fdK_-SKtKc-25" value="VRF交易监控分析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="eN9nRApgs2fdK_-SKtKc-75">
-          <mxGeometry width="110" height="30" as="geometry" />
+          <mxGeometry width="125.83999999999999" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eN9nRApgs2fdK_-SKtKc-32" value="内置合约同步&amp;amp;分析" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="eN9nRApgs2fdK_-SKtKc-75">
-          <mxGeometry x="125" y="82" width="108" height="30" as="geometry" />
+        <mxCell id="eN9nRApgs2fdK_-SKtKc-32" value="内置合约数据同步&amp;amp;分析" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="eN9nRApgs2fdK_-SKtKc-75">
+          <mxGeometry x="131" y="82" width="135.55" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eN9nRApgs2fdK_-SKtKc-34" value="V1数据同步&amp;amp;分析" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="eN9nRApgs2fdK_-SKtKc-75">
-          <mxGeometry x="125" y="122" width="108" height="30" as="geometry" />
+          <mxGeometry x="132" y="122" width="134.55" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eN9nRApgs2fdK_-SKtKc-35" value="V2数据同步&amp;amp;分析" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="eN9nRApgs2fdK_-SKtKc-75">
-          <mxGeometry x="125" y="40" width="107" height="30" as="geometry" />
+          <mxGeometry x="131" y="40" width="134.41" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eN9nRApgs2fdK_-SKtKc-67" value="数据同步入库" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="eN9nRApgs2fdK_-SKtKc-75">
-          <mxGeometry x="7" y="61.5" width="74.5" height="74.5" as="geometry" />
+          <mxGeometry x="8.008" y="61.5" width="74.5" height="74.5" as="geometry" />
         </mxCell>
         <mxCell id="eN9nRApgs2fdK_-SKtKc-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startArrow=none;startFill=0;" edge="1" parent="eN9nRApgs2fdK_-SKtKc-75" source="eN9nRApgs2fdK_-SKtKc-32" target="eN9nRApgs2fdK_-SKtKc-67">
           <mxGeometry relative="1" as="geometry" />
@@ -35,7 +35,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eN9nRApgs2fdK_-SKtKc-61" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1146" y="317" width="310" height="468" as="geometry" />
+          <mxGeometry x="1144" y="317" width="310" height="468" as="geometry" />
         </mxCell>
         <mxCell id="eN9nRApgs2fdK_-SKtKc-45" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fontSize=12;" vertex="1" parent="eN9nRApgs2fdK_-SKtKc-61">
           <mxGeometry y="3" width="310" height="465" as="geometry" />
@@ -50,16 +50,16 @@
           <mxGeometry width="250" height="180" as="geometry" />
         </mxCell>
         <mxCell id="eN9nRApgs2fdK_-SKtKc-2" value="内置VRF&lt;br&gt;随机数&lt;br&gt;生成合约" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="eN9nRApgs2fdK_-SKtKc-58">
-          <mxGeometry x="159" y="100" width="80" height="60" as="geometry" />
+          <mxGeometry x="151" y="100" width="88" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eN9nRApgs2fdK_-SKtKc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="eN9nRApgs2fdK_-SKtKc-58" source="eN9nRApgs2fdK_-SKtKc-3" target="eN9nRApgs2fdK_-SKtKc-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eN9nRApgs2fdK_-SKtKc-3" value="VRF-V1&lt;br&gt;Coordinator" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="eN9nRApgs2fdK_-SKtKc-58">
-          <mxGeometry x="35" y="100" width="80" height="60" as="geometry" />
+          <mxGeometry x="14" y="100" width="87" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eN9nRApgs2fdK_-SKtKc-31" value="&lt;span style=&quot;&quot;&gt;遗留数据&lt;br&gt;RPC接口&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="eN9nRApgs2fdK_-SKtKc-58">
-          <mxGeometry x="34" y="44" width="70" height="40" as="geometry" />
+        <mxCell id="eN9nRApgs2fdK_-SKtKc-31" value="&lt;span style=&quot;&quot;&gt;内置VRF随机数生成合约RPC数据接口&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="eN9nRApgs2fdK_-SKtKc-58">
+          <mxGeometry x="26" y="44" width="208" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eN9nRApgs2fdK_-SKtKc-52" value="PlatON链特有功能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="eN9nRApgs2fdK_-SKtKc-58">
           <mxGeometry x="70" width="110" height="30" as="geometry" />
@@ -99,7 +99,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zCin7H-c0UoGZGDDaXdg-1" value="抓取v2版本事件日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="eN9nRApgs2fdK_-SKtKc-63">
+        <mxCell id="zCin7H-c0UoGZGDDaXdg-1" value="v2版VRF合约事件日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="eN9nRApgs2fdK_-SKtKc-63">
           <mxGeometry x="0.0726" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -112,7 +112,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zCin7H-c0UoGZGDDaXdg-2" value="调RPC接口取数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="eN9nRApgs2fdK_-SKtKc-64">
+        <mxCell id="zCin7H-c0UoGZGDDaXdg-2" value="内置VRF交易数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="eN9nRApgs2fdK_-SKtKc-64">
           <mxGeometry x="0.2399" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="-10" as="offset" />
           </mxGeometry>
@@ -125,7 +125,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zCin7H-c0UoGZGDDaXdg-3" value="抓v1版本事件日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="eN9nRApgs2fdK_-SKtKc-65">
+        <mxCell id="zCin7H-c0UoGZGDDaXdg-3" value="v1版VRF合约事件日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="eN9nRApgs2fdK_-SKtKc-65">
           <mxGeometry x="0.094" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -151,11 +151,15 @@
         <mxCell id="eN9nRApgs2fdK_-SKtKc-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;fontSize=12;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="eN9nRApgs2fdK_-SKtKc-20" target="eN9nRApgs2fdK_-SKtKc-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eN9nRApgs2fdK_-SKtKc-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.323;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startArrow=none;startFill=0;" edge="1" parent="1" source="eN9nRApgs2fdK_-SKtKc-22" target="eN9nRApgs2fdK_-SKtKc-39">
+        <mxCell id="eN9nRApgs2fdK_-SKtKc-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startArrow=none;startFill=0;" edge="1" parent="1" source="eN9nRApgs2fdK_-SKtKc-22" target="eN9nRApgs2fdK_-SKtKc-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eN9nRApgs2fdK_-SKtKc-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.6;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startArrow=none;startFill=0;" edge="1" parent="1" source="eN9nRApgs2fdK_-SKtKc-67" target="eN9nRApgs2fdK_-SKtKc-39">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="762" y="553" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="eN9nRApgs2fdK_-SKtKc-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startArrow=none;startFill=0;dashed=1;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="eN9nRApgs2fdK_-SKtKc-77" target="eN9nRApgs2fdK_-SKtKc-20">
           <mxGeometry relative="1" as="geometry" />
@@ -201,6 +205,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eN9nRApgs2fdK_-SKtKc-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="eN9nRApgs2fdK_-SKtKc-86" target="eN9nRApgs2fdK_-SKtKc-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCin7H-c0UoGZGDDaXdg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;exitX=0.327;exitY=-0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eN9nRApgs2fdK_-SKtKc-39" target="eN9nRApgs2fdK_-SKtKc-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
